@@ -16,6 +16,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 WORKDIR /workspace/aerial_ws
 
 COPY ros2_ws ./ros2_ws
+COPY external ./external
 
 RUN source /opt/ros/humble/setup.bash && \
     cd /workspace/aerial_ws/ros2_ws && \
