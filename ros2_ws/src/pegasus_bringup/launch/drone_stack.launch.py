@@ -1,39 +1,58 @@
 """
-Pegasus AI — Full Drone Stack Bringup
-======================================
-Launches the complete simulation stack:
-  1. PX4 SITL (flight controller) — started separately
-  2. MAVROS (MAVLink↔ROS2 bridge)
-  3. pegasus_ai nodes (offboard control + mission executor + inference)
+Aerial Crane Inspection — Full Drone Stack Bringup
+====================================================
+Launches the complete autonomy stack from AAS (upstream) + Isaac Sim integration.
+
+Architecture:
+  Isaac Sim (Pegasus) → PX4 SITL (:4560) → MAVROS → AAS actions → offboard → PX4
+  Isaac Sim camera    → /camera/image_raw → inference_node (TensorRT YOLO)
+  inference_node      → /detections        → offboard_control
+
+Changes from upstream aerial-autonomy-stack:
+  1. MAVROS fcu_url port 4560 (Pegasus default, upstream uses 14540)
+  2. Camera input from ROS2 topic (upstream uses GStreamer UDP)
+  3. LiDAR (kiss_icp) disabled — not needed for crane inspection
+  4. Single-drone, no SwarmObs tracking (upstream supports multi-drone)
+  5. Mission: crane_inspection.yaml (upstream uses yalla.yaml swarm demo)
 
 Usage:
-  # Terminal 1: Start PX4 SITL
-  cd /workspace/PX4-Autopilot
-  make px4_sitl none
+  # Terminal 1: Start Isaac Sim with Pegasus drone
+  export OMNI_KIT_ALLOW_ROOT=1 DISPLAY=:1
+  /workspace/isaacsim/isaac-sim.sh --allow-root -p \\
+    /workspace/aerial_ws/scripts/spawn_drone_px4.py
 
-  # Terminal 2: Launch full stack
+  # Terminal 2: Launch full autonomy stack
+  export ROS_DOMAIN_ID=44
   source /opt/ros/humble/setup.bash
-  source /workspaces/pegasus_ws/ros2_ws/install/setup.bash
+  source /workspace/aerial_ws/ros2_ws/install/setup.bash
   ros2 launch pegasus_bringup drone_stack.launch.py
-
-  # Terminal 3 (optional): Start inference
-  ros2 run pegasus_ai inference_node --ros-args -p model_type:=mock
 """
 
 import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, OpaqueFunction
+from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
 
 
 def generate_launch_description():
-    # ── Arguments ──────────────────────────────────────────────────
-    fcu_url = LaunchConfiguration("fcu_url", default="udp://:14540@localhost:14550")
-    gcs_url = LaunchConfiguration("gcs_url", default="udp://:@localhost:14550")
+    # ── Arguments ──────────────────────────────────────────────────────
+    fcu_url = LaunchConfiguration(
+        "fcu_url",
+        default="udp://:4560@localhost:14550",  # ← CHANGE #1: Pegasus port
+    )
+    gcs_url = LaunchConfiguration(
+        "gcs_url", default="udp://:@localhost:14550"
+    )
     tgt_system = LaunchConfiguration("tgt_system", default="1")
+    drone_id = LaunchConfiguration("drone_id", default="1")
+    camera_topic = LaunchConfiguration(
+        "camera_topic",
+        default="/drone/inspection_camera/color/image_raw",
+    )
+    model_type = LaunchConfiguration("model_type", default="mock")
     mission_file = LaunchConfiguration(
         "mission_file",
         default=os.path.join(
@@ -42,96 +61,104 @@ def generate_launch_description():
         ),
     )
 
-    # ── MAVROS node ────────────────────────────────────────────────
+    # ── MAVROS node ────────────────────────────────────────────────────
     mavros_node = Node(
         package="mavros",
         executable="mavros_node",
         name="mavros",
-        parameters=[
-            {
-                "fcu_url": fcu_url,
-                "gcs_url": gcs_url,
-                "tgt_system": tgt_system,
-                "plugin_allowlist": [
-                    "sys_status",
-                    "command",
-                    "setpoint_position",
-                    "setpoint_raw",
-                    "local_position",
-                    "global_position",
-                    "imu",
-                    "param",
-                    "home_position",
-                    "manual_control",
-                ],
-            }
-        ],
+        parameters=[{
+            "fcu_url": fcu_url,
+            "gcs_url": gcs_url,
+            "tgt_system": tgt_system,
+            "plugin_allowlist": [
+                "sys_status",
+                "command",
+                "setpoint_position",
+                "setpoint_raw",
+                "local_position",
+                "global_position",
+                "imu",
+                "param",
+                "home_position",
+                "manual_control",
+            ],
+        }],
         output="screen",
         emulate_tty=True,
     )
 
-    # ── Offboard control node ──────────────────────────────────────
-    offboard_node = Node(
-        package="pegasus_ai",
-        executable="offboard_control",
+    # ── AAS: autopilot_interface (action server) ──────────────────────
+    autopilot_interface_node = Node(
+        package="autopilot_interface",
+        executable="px4_interface",
+        name="px4_interface",
+        namespace=f"Drone{drone_id}",
+        parameters=[{"use_sim_time": True}],
+        output="screen",
+        emulate_tty=True,
+    )
+
+    # ── AAS: offboard_control (setpoint computation) ──────────────────
+    # CHANGE #4: ground_tracks subscription fires but unused (single drone)
+    offboard_control_node = Node(
+        package="offboard_control",
+        executable="px4_offboard",
         name="offboard_control",
-        parameters=[
-            {
-                "takeoff_height": 8.0,
-                "auto_arm": False,
-            }
+        namespace=f"Drone{drone_id}",
+        parameters=[{"use_sim_time": True}],
+        remappings=[
+            ("/detections", "/detections"),
         ],
         output="screen",
         emulate_tty=True,
     )
 
-    # ── Mission executor node ──────────────────────────────────────
+    # ── AAS: mission (conops executor) ────────────────────────────────
     mission_node = Node(
-        package="pegasus_ai",
-        executable="mission_executor",
-        name="mission_executor",
-        parameters=[
-            {
-                "mission_file": "/workspaces/pegasus_ws/missions/crane_inspection_demo.yaml",
-                "default_takeoff_height": 8.0,
-                "waypoint_tolerance": 0.5,
-                "auto_start": False,
-            }
-        ],
+        package="mission",
+        executable="mission",
+        name="mission",
+        namespace=f"Drone{drone_id}",
+        parameters=[{
+            "use_sim_time": True,
+        }],
+        arguments=["--conops", mission_file],
         output="screen",
         emulate_tty=True,
     )
 
-    # ── AI Inference node (mock mode for testing) ──────────────────
+    # ── pegasus_ai: inference_node (TensorRT YOLO) ────────────────────
+    # CHANGE #2: subscribes to ROS2 camera topic from Isaac Sim
+    # (upstream yolo_py uses GStreamer UDP, kept here because
+    #  Isaac Sim camera output is ROS2-native)
     inference_node = Node(
         package="pegasus_ai",
         executable="inference_node",
         name="defect_inference",
-        parameters=[
-            {
-                "model_type": "mock",
-                "input_image_topic": "/drone/inspection_camera/color/image_raw",
-                "output_detections_topic": "/pegasus/ai/defect_detections",
-                "output_defect_array_topic": "/pegasus/ai/defect_array",
-                "output_json_topic": "/pegasus/ai/defect_json",
-                "output_health_topic": "/pegasus/ai/node_health",
-                "max_publish_rate": 10.0,
-            }
-        ],
+        parameters=[{
+            "model_type": model_type,
+            "input_image_topic": camera_topic,
+            "output_detections_topic": "/detections",
+            "max_publish_rate": 20.0,
+        }],
         output="screen",
         emulate_tty=True,
     )
 
-    return LaunchDescription(
-        [
-            # Declare args
-            DeclareLaunchArgument("fcu_url", default_value="udp://:14540@localhost:14550"),
-            DeclareLaunchArgument("gcs_url", default_value="udp://:@localhost:14550"),
-            DeclareLaunchArgument("tgt_system", default_value="1"),
-            # Nodes
-            mavros_node,
-            offboard_node,
-            mission_node,
-            inference_node,
-        ]
-    )
+    # CHANGE #3: kiss_icp (LiDAR odometry) — NOT launched
+    # CHANGE #4: state_sharing (swarm) — NOT launched
+
+    return LaunchDescription([
+        DeclareLaunchArgument("fcu_url", default_value="udp://:4560@localhost:14550"),
+        DeclareLaunchArgument("gcs_url", default_value="udp://:@localhost:14550"),
+        DeclareLaunchArgument("tgt_system", default_value="1"),
+        DeclareLaunchArgument("drone_id", default_value="1"),
+        DeclareLaunchArgument("camera_topic", default_value="/drone/inspection_camera/color/image_raw"),
+        DeclareLaunchArgument("model_type", default_value="mock"),
+        DeclareLaunchArgument("mission_file", default_value=""),
+        mavros_node,
+        autopilot_interface_node,
+        offboard_control_node,
+        mission_node,
+        inference_node,
+    ])
