@@ -10,7 +10,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-rosdep \
     ros-humble-geographic-msgs \
     ros-humble-mavros-msgs \
-    libgeographiclib-dev \
+    libgeographic-dev \
     && rm -rf /var/lib/apt/lists/*
  
 WORKDIR /workspace/aerial_ws
