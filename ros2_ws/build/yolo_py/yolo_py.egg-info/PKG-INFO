@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: yolo_py
+Version: 0.1.0
+Summary: YOLO inference and ROS2 publisher, OpenCV and GStreamer based
+Maintainer: JacopoPan
+Maintainer-email: jacopo.pan@gmail.com
+License: MIT License
+Requires-Dist: setuptools
+Dynamic: license
+Dynamic: maintainer
+Dynamic: maintainer-email
+Dynamic: requires-dist
+Dynamic: summary

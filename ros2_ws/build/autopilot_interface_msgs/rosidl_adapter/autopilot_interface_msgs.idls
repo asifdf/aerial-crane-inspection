@@ -1,0 +1,7 @@
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:action/Land.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:action/Offboard.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:action/Orbit.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:action/Takeoff.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:msg/OffboardFlag.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:srv/SetSpeed.idl
+/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/rosidl_adapter/autopilot_interface_msgs:srv/SetReposition.idl

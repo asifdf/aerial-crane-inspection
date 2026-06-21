@@ -1,0 +1,314 @@
+[  1%] Generating C code for ROS interfaces
+[  3%] Generating Rust code for ROS interfaces
+[  4%] Generating C++ code for ROS interfaces
+[  4%] Built target ament_cmake_python_copy_pegasus_msgs
+running egg_info
+creating pegasus_msgs.egg-info
+writing pegasus_msgs.egg-info/PKG-INFO
+writing dependency_links to pegasus_msgs.egg-info/dependency_links.txt
+writing top-level names to pegasus_msgs.egg-info/top_level.txt
+writing manifest file 'pegasus_msgs.egg-info/SOURCES.txt'
+reading manifest file 'pegasus_msgs.egg-info/SOURCES.txt'
+writing manifest file 'pegasus_msgs.egg-info/SOURCES.txt'
+[  4%] Built target ament_cmake_python_build_pegasus_msgs_egg
+[  4%] Built target pegasus_msgs__rs
+[  4%] Built target pegasus_msgs__cpp
+[  6%] Generating C++ type support dispatch for ROS interfaces
+[  7%] Generating C++ type support for eProsima Fast-RTPS
+[  9%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_c.dir/rosidl_generator_c/pegasus_msgs/msg/detail/defect_detection__functions.c.o
+[ 10%] Generating C++ introspection for ROS interfaces
+[ 12%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_c.dir/rosidl_generator_c/pegasus_msgs/msg/detail/defect_array__functions.c.o
+[ 14%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_c.dir/rosidl_generator_c/pegasus_msgs/msg/detail/inspection_result__functions.c.o
+[ 15%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_c.dir/rosidl_generator_c/pegasus_msgs/msg/detail/node_health__functions.c.o
+[ 17%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_c.dir/rosidl_generator_c/pegasus_msgs/msg/detail/zone_info__functions.c.o
+[ 18%] Linking C shared library libpegasus_msgs__rosidl_generator_c.so
+[ 18%] Built target pegasus_msgs__rosidl_generator_c
+[ 20%] Generating C type support for eProsima Fast-RTPS
+[ 21%] Generating C introspection for ROS interfaces
+[ 23%] Generating C type support dispatch for ROS interfaces
+[ 25%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pegasus_msgs/msg/defect_detection__type_support.cpp.o
+[ 26%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pegasus_msgs/msg/inspection_result__type_support.cpp.o
+[ 28%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pegasus_msgs/msg/zone_info__type_support.cpp.o
+[ 29%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pegasus_msgs/msg/defect_array__type_support.cpp.o
+[ 31%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pegasus_msgs/msg/node_health__type_support.cpp.o
+[ 32%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pegasus_msgs/msg/detail/defect_detection__type_support_c.cpp.o
+[ 34%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pegasus_msgs/msg/detail/defect_array__type_support_c.cpp.o
+[ 35%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pegasus_msgs/msg/detail/inspection_result__type_support_c.cpp.o
+[ 39%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pegasus_msgs/msg/defect_detection__type_support.cpp.o
+[ 40%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pegasus_msgs/msg/detail/node_health__type_support_c.cpp.o
+[ 37%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pegasus_msgs/msg/defect_array__type_support.cpp.o
+[ 42%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pegasus_msgs/msg/detail/dds_fastrtps/defect_detection__type_support.cpp.o
+[ 43%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pegasus_msgs/msg/inspection_result__type_support.cpp.o
+[ 45%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pegasus_msgs/msg/detail/zone_info__type_support_c.cpp.o
+[ 46%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pegasus_msgs/msg/zone_info__type_support.cpp.o
+[ 48%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pegasus_msgs/msg/node_health__type_support.cpp.o
+[ 50%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pegasus_msgs/msg/detail/dds_fastrtps/defect_array__type_support.cpp.o
+[ 51%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pegasus_msgs/msg/detail/dds_fastrtps/inspection_result__type_support.cpp.o
+[ 53%] Linking CXX shared library libpegasus_msgs__rosidl_typesupport_c.so
+[ 53%] Built target pegasus_msgs__rosidl_typesupport_c
+[ 54%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pegasus_msgs/msg/detail/dds_fastrtps/zone_info__type_support.cpp.o
+[ 56%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pegasus_msgs/msg/detail/dds_fastrtps/node_health__type_support.cpp.o
+[ 57%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pegasus_msgs/msg/detail/defect_detection__type_support.cpp.o
+[ 59%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pegasus_msgs/msg/detail/defect_array__type_support.cpp.o
+[ 60%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pegasus_msgs/msg/detail/inspection_result__type_support.cpp.o
+[ 62%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pegasus_msgs/msg/detail/zone_info__type_support.cpp.o
+[ 64%] Linking CXX shared library libpegasus_msgs__rosidl_typesupport_cpp.so
+[ 64%] Built target pegasus_msgs__rosidl_typesupport_cpp
+[ 65%] Building CXX object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pegasus_msgs/msg/detail/node_health__type_support.cpp.o
+[ 67%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pegasus_msgs/msg/detail/defect_detection__type_support.c.o
+[ 68%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pegasus_msgs/msg/detail/defect_array__type_support.c.o
+[ 70%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pegasus_msgs/msg/detail/inspection_result__type_support.c.o
+[ 71%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pegasus_msgs/msg/detail/node_health__type_support.c.o
+[ 73%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pegasus_msgs/msg/detail/zone_info__type_support.c.o
+[ 75%] Linking CXX shared library libpegasus_msgs__rosidl_typesupport_fastrtps_c.so
+[ 76%] Linking C shared library libpegasus_msgs__rosidl_typesupport_introspection_c.so
+[ 76%] Built target pegasus_msgs__rosidl_typesupport_introspection_c
+[ 76%] Built target pegasus_msgs__rosidl_typesupport_fastrtps_c
+[ 78%] Linking CXX shared library libpegasus_msgs__rosidl_typesupport_introspection_cpp.so
+[ 79%] Linking CXX shared library libpegasus_msgs__rosidl_typesupport_fastrtps_cpp.so
+[ 79%] Built target pegasus_msgs__rosidl_typesupport_introspection_cpp
+[ 79%] Built target pegasus_msgs__rosidl_typesupport_fastrtps_cpp
+[ 79%] Built target pegasus_msgs
+[ 81%] Generating Python code for ROS interfaces
+[ 81%] Built target pegasus_msgs__py
+[ 82%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_py.dir/rosidl_generator_py/pegasus_msgs/msg/_defect_detection_s.c.o
+[ 84%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_py.dir/rosidl_generator_py/pegasus_msgs/msg/_defect_array_s.c.o
+[ 87%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_py.dir/rosidl_generator_py/pegasus_msgs/msg/_node_health_s.c.o
+[ 87%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_py.dir/rosidl_generator_py/pegasus_msgs/msg/_zone_info_s.c.o
+[ 89%] Building C object CMakeFiles/pegasus_msgs__rosidl_generator_py.dir/rosidl_generator_py/pegasus_msgs/msg/_inspection_result_s.c.o
+[ 90%] Linking C shared library rosidl_generator_py/pegasus_msgs/libpegasus_msgs__rosidl_generator_py.so
+[ 90%] Built target pegasus_msgs__rosidl_generator_py
+[ 92%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_introspection_c.c.o
+[ 93%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[ 95%] Building C object CMakeFiles/pegasus_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_c.c.o
+[ 96%] Linking C shared library rosidl_generator_py/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[ 98%] Linking C shared library rosidl_generator_py/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[100%] Linking C shared library rosidl_generator_py/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[100%] Built target pegasus_msgs__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target pegasus_msgs__rosidl_typesupport_introspection_c__pyext
+[100%] Built target pegasus_msgs__rosidl_typesupport_c__pyext
+-- Install configuration: ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/ament_index/resource_index/rosidl_interfaces/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/defect_detection.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__functions.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__functions.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__struct.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__type_support.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__functions.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__functions.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__struct.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__type_support.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__functions.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__functions.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__struct.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__type_support.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__functions.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__functions.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__struct.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__type_support.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__functions.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__functions.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__struct.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__type_support.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/defect_array.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/inspection_result.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/zone_info.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/node_health.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/library_path.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/library_path.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_generator_c.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_generator_c.so" to ""
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__rosidl_typesupport_fastrtps_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__rosidl_typesupport_fastrtps_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__rosidl_typesupport_fastrtps_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__rosidl_typesupport_fastrtps_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__type_support.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__type_support.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__type_support.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__type_support.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__rosidl_typesupport_introspection_c.h
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__type_support.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_c.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/defect_detection.hpp
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__builder.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__struct.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__traits.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__type_support.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__builder.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__struct.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__traits.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__type_support.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__builder.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__struct.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__traits.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__type_support.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__builder.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__struct.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__traits.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__type_support.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__builder.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__struct.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__traits.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__type_support.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/defect_array.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/inspection_result.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/zone_info.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/node_health.hpp
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/dds_fastrtps
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg
+-- Up-to-date: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_detection__type_support.cpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/defect_array__type_support.cpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/inspection_result__type_support.cpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/zone_info__type_support.cpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/include/pegasus_msgs/pegasus_msgs/msg/detail/node_health__type_support.cpp
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_cpp.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_typesupport_cpp.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/pythonpath.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/pythonpath.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs-0.1.0-py3.10.egg-info
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs-0.1.0-py3.10.egg-info/PKG-INFO
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs-0.1.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs-0.1.0-py3.10.egg-info/top_level.txt
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs-0.1.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/__init__.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_detection.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_detection_s.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_array.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_array_s.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_inspection_result.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_inspection_result_s.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_zone_info.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_zone_info_s.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_node_health.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_node_health_s.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/__init__.py
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_introspection_c.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/_pegasus_msgs_s.ep.rosidl_typesupport_c.c
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/libpegasus_msgs__rosidl_generator_py.so
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+Listing '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/__init__.py'...
+Listing '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/__init__.py'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_array.py'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_defect_detection.py'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_inspection_result.py'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_node_health.py'...
+Compiling '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/msg/_zone_info.py'...
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages/pegasus_msgs/pegasus_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_generator_py.so
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/libpegasus_msgs__rosidl_generator_py.so" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/ament_index/resource_index/rust_packages/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/src
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/src/msg.rs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/src/msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/src/msg/rmw.rs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/src/lib.rs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/Cargo.toml
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/rust/build.rs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/DefectDetection.idl
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/DefectArray.idl
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/InspectionResult.idl
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/ZoneInfo.idl
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/NodeHealth.idl
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/DefectDetection.msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/DefectArray.msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/InspectionResult.msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/ZoneInfo.msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/msg/NodeHealth.msg
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/ament_index/resource_index/package_run_dependencies/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/ament_index/resource_index/parent_prefix_path/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/ament_prefix_path.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/ament_prefix_path.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/path.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/environment/path.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/local_setup.bash
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/local_setup.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/local_setup.zsh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/local_setup.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/ament_index/resource_index/packages/pegasus_msgs
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_generator_cExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_cExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_generator_cppExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_cppExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_generator_pyExport.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/export_pegasus_msgs__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/rosidl_cmake-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgsConfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/cmake/pegasus_msgsConfig-version.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.xml

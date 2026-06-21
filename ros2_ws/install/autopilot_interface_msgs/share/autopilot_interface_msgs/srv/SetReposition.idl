@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from autopilot_interface_msgs/srv/SetReposition.srv
+// generated code does not contain a copyright notice
+
+
+module autopilot_interface_msgs {
+  module srv {
+    struct SetReposition_Request {
+      double east;
+
+      double north;
+
+      double altitude;
+    };
+    struct SetReposition_Response {
+      boolean success;
+
+      string message;
+    };
+  };
+};

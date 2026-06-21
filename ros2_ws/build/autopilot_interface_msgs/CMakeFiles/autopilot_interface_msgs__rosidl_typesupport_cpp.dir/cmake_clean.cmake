@@ -1,0 +1,30 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/land__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/land__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/offboard__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/offboard__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/orbit__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/orbit__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/takeoff__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/action/takeoff__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/msg/offboard_flag__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/msg/offboard_flag__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_reposition__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_reposition__type_support.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_speed__type_support.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_speed__type_support.cpp.o.d"
+  "libautopilot_interface_msgs__rosidl_typesupport_cpp.pdb"
+  "libautopilot_interface_msgs__rosidl_typesupport_cpp.so"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/action/land__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/action/offboard__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/action/orbit__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/action/takeoff__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/msg/offboard_flag__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_reposition__type_support.cpp"
+  "rosidl_typesupport_cpp/autopilot_interface_msgs/srv/set_speed__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

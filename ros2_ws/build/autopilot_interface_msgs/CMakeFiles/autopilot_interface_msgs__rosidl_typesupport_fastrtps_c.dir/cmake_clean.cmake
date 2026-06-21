@@ -1,0 +1,37 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/land__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/land__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/offboard__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/offboard__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/orbit__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/orbit__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/takeoff__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/takeoff__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/msg/detail/offboard_flag__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/msg/detail/offboard_flag__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_reposition__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_reposition__type_support_c.cpp.o.d"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_speed__type_support_c.cpp.o"
+  "CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_speed__type_support_c.cpp.o.d"
+  "libautopilot_interface_msgs__rosidl_typesupport_fastrtps_c.pdb"
+  "libautopilot_interface_msgs__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/land__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/land__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/offboard__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/offboard__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/orbit__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/orbit__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/takeoff__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/action/detail/takeoff__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/msg/detail/offboard_flag__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/msg/detail/offboard_flag__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_reposition__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_reposition__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_speed__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/autopilot_interface_msgs/srv/detail/set_speed__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/autopilot_interface_msgs__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

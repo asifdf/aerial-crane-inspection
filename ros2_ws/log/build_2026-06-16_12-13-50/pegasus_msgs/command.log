@@ -1,0 +1,1 @@
+Invoking command in '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/pegasus_msgs -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "autopilot_interface_msgs__py",
+		"source" : "/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs/autopilot_interface_msgs__py"
+	}
+}

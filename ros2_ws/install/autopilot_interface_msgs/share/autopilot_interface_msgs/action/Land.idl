@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from autopilot_interface_msgs/action/Land.action
+// generated code does not contain a copyright notice
+
+
+module autopilot_interface_msgs {
+  module action {
+    struct Land_Goal {
+      @default (value=50.0)
+      double landing_altitude;
+
+      @default (value=270.0)
+      double vtol_transition_heading;
+    };
+    struct Land_Result {
+      boolean success;
+    };
+    struct Land_Feedback {
+      string message;
+    };
+  };
+};

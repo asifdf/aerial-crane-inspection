@@ -1,0 +1,142 @@
+[0.835s] Invoking command in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/pegasus_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pegasus_ai build --build-base /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build install --record /workspace/aerial_ws/ros2_ws/build/pegasus_ai/install.log --single-version-externally-managed install_data
+[1.072s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:75: _MissingDynamic: `description` defined outside of `pyproject.toml` is ignored.
+[1.072s] !!
+[1.073s] 
+[1.073s]         ********************************************************************************
+[1.073s]         The following seems to be defined outside of `pyproject.toml`:
+[1.073s] 
+[1.073s]         `description = 'AI inference node for Pegasus drone inspection'`
+[1.073s] 
+[1.073s]         According to the spec (see the link below), however, setuptools CANNOT
+[1.073s]         consider this value unless `description` is listed as `dynamic`.
+[1.073s] 
+[1.073s]         https://packaging.python.org/en/latest/specifications/pyproject-toml/#declaring-project-metadata-the-project-table
+[1.074s] 
+[1.074s]         To prevent this problem, you can list `description` under `dynamic` or alternatively
+[1.074s]         remove the `[project]` table from your file and rely entirely on other means of
+[1.074s]         configuration.
+[1.074s]         ********************************************************************************
+[1.074s] 
+[1.074s] !!
+[1.074s]   _handle_missing_dynamic(dist, project_table)
+[1.074s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:75: _MissingDynamic: `license` defined outside of `pyproject.toml` is ignored.
+[1.074s] !!
+[1.075s] 
+[1.075s]         ********************************************************************************
+[1.075s]         The following seems to be defined outside of `pyproject.toml`:
+[1.075s] 
+[1.075s]         `license = 'Apache-2.0'`
+[1.075s] 
+[1.075s]         According to the spec (see the link below), however, setuptools CANNOT
+[1.075s]         consider this value unless `license` is listed as `dynamic`.
+[1.075s] 
+[1.075s]         https://packaging.python.org/en/latest/specifications/pyproject-toml/#declaring-project-metadata-the-project-table
+[1.075s] 
+[1.076s]         To prevent this problem, you can list `license` under `dynamic` or alternatively
+[1.076s]         remove the `[project]` table from your file and rely entirely on other means of
+[1.076s]         configuration.
+[1.076s]         ********************************************************************************
+[1.076s] 
+[1.076s] !!
+[1.076s]   _handle_missing_dynamic(dist, project_table)
+[1.076s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:75: _MissingDynamic: `maintainers` defined outside of `pyproject.toml` is ignored.
+[1.076s] !!
+[1.076s] 
+[1.077s]         ********************************************************************************
+[1.077s]         The following seems to be defined outside of `pyproject.toml`:
+[1.077s] 
+[1.077s]         `maintainers = 'Pegasus Team'`
+[1.077s] 
+[1.077s]         According to the spec (see the link below), however, setuptools CANNOT
+[1.077s]         consider this value unless `maintainers` is listed as `dynamic`.
+[1.077s] 
+[1.077s]         https://packaging.python.org/en/latest/specifications/pyproject-toml/#declaring-project-metadata-the-project-table
+[1.077s] 
+[1.078s]         To prevent this problem, you can list `maintainers` under `dynamic` or alternatively
+[1.078s]         remove the `[project]` table from your file and rely entirely on other means of
+[1.078s]         configuration.
+[1.078s]         ********************************************************************************
+[1.078s] 
+[1.078s] !!
+[1.078s]   _handle_missing_dynamic(dist, project_table)
+[1.078s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:75: _MissingDynamic: `dependencies` defined outside of `pyproject.toml` is ignored.
+[1.078s] !!
+[1.078s] 
+[1.079s]         ********************************************************************************
+[1.079s]         The following seems to be defined outside of `pyproject.toml`:
+[1.079s] 
+[1.079s]         `dependencies = ['setuptools']`
+[1.079s] 
+[1.079s]         According to the spec (see the link below), however, setuptools CANNOT
+[1.079s]         consider this value unless `dependencies` is listed as `dynamic`.
+[1.079s] 
+[1.079s]         https://packaging.python.org/en/latest/specifications/pyproject-toml/#declaring-project-metadata-the-project-table
+[1.079s] 
+[1.080s]         To prevent this problem, you can list `dependencies` under `dynamic` or alternatively
+[1.080s]         remove the `[project]` table from your file and rely entirely on other means of
+[1.080s]         configuration.
+[1.080s]         ********************************************************************************
+[1.080s] 
+[1.080s] !!
+[1.080s]   _handle_missing_dynamic(dist, project_table)
+[1.080s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsWarning: `license` overwritten by `pyproject.toml`
+[1.080s]   corresp(dist, value, root_dir)
+[1.080s] /usr/local/lib/python3.10/dist-packages/setuptools/config/_apply_pyprojecttoml.py:82: SetuptoolsWarning: `install_requires` overwritten in `pyproject.toml` (dependencies)
+[1.080s]   corresp(dist, value, root_dir)
+[1.225s] running egg_info
+[1.248s] creating ../../build/pegasus_ai/pegasus_ai.egg-info
+[1.248s] writing ../../build/pegasus_ai/pegasus_ai.egg-info/PKG-INFO
+[1.248s] writing dependency_links to ../../build/pegasus_ai/pegasus_ai.egg-info/dependency_links.txt
+[1.248s] writing entry points to ../../build/pegasus_ai/pegasus_ai.egg-info/entry_points.txt
+[1.248s] writing top-level names to ../../build/pegasus_ai/pegasus_ai.egg-info/top_level.txt
+[1.429s] writing manifest file '../../build/pegasus_ai/pegasus_ai.egg-info/SOURCES.txt'
+[1.474s] reading manifest file '../../build/pegasus_ai/pegasus_ai.egg-info/SOURCES.txt'
+[1.475s] writing manifest file '../../build/pegasus_ai/pegasus_ai.egg-info/SOURCES.txt'
+[1.475s] running build
+[1.476s] running build_py
+[1.476s] creating /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.476s] copying pegasus_ai/inference_node.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.476s] copying pegasus_ai/mock_camera_node.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.476s] copying pegasus_ai/test_publisher.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.476s] copying pegasus_ai/__init__.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.477s] copying pegasus_ai/isaac_sim_listener.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.477s] copying pegasus_ai/vslam_nav2_mock.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.477s] copying pegasus_ai/offboard_control_node.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.477s] copying pegasus_ai/mission_executor_node.py -> /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai
+[1.478s] running install
+[1.482s] running install_lib
+[1.505s] creating /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.505s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/inference_node.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.505s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/mock_camera_node.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.505s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/test_publisher.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.506s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/__init__.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.506s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/isaac_sim_listener.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.506s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/vslam_nav2_mock.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.506s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/offboard_control_node.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.506s] copying /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build/lib/pegasus_ai/mission_executor_node.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai
+[1.507s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/inference_node.py to inference_node.cpython-310.pyc
+[1.512s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/mock_camera_node.py to mock_camera_node.cpython-310.pyc
+[1.513s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/test_publisher.py to test_publisher.cpython-310.pyc
+[1.514s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/__init__.py to __init__.cpython-310.pyc
+[1.515s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/isaac_sim_listener.py to isaac_sim_listener.cpython-310.pyc
+[1.515s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/vslam_nav2_mock.py to vslam_nav2_mock.cpython-310.pyc
+[1.517s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/offboard_control_node.py to offboard_control_node.cpython-310.pyc
+[1.518s] byte-compiling /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai/mission_executor_node.py to mission_executor_node.cpython-310.pyc
+[1.521s] running install_data
+[1.521s] creating /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/ament_index/resource_index/packages
+[1.522s] copying resource/pegasus_ai -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/ament_index/resource_index/packages
+[1.522s] copying package.xml -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai
+[1.522s] creating /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/launch
+[1.522s] copying launch/inference.launch.py -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/launch
+[1.522s] creating /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/config
+[1.522s] copying config/inference.yaml -> /workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/config
+[1.523s] running install_egg_info
+[1.545s] Copying ../../build/pegasus_ai/pegasus_ai.egg-info to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages/pegasus_ai-0.1.0-py3.10.egg-info
+[1.546s] running install_scripts
+[1.592s] Installing inference_node script to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pegasus_ai
+[1.592s] Installing isaac_sim_listener script to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pegasus_ai
+[1.593s] Installing mock_camera_node script to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pegasus_ai
+[1.593s] Installing test_publisher script to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pegasus_ai
+[1.593s] Installing vslam_nav2_mock script to /workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pegasus_ai
+[1.593s] writing list of installed files to '/workspace/aerial_ws/ros2_ws/build/pegasus_ai/install.log'
+[1.623s] Invoked command in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/pegasus_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pegasus_ai build --build-base /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build install --record /workspace/aerial_ws/ros2_ws/build/pegasus_ai/install.log --single-version-externally-managed install_data

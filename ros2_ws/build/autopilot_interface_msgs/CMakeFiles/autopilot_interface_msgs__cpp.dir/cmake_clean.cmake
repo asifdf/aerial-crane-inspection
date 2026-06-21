@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/autopilot_interface_msgs__cpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/land__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/land__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/land__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/land__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/offboard__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/offboard__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/offboard__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/offboard__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/orbit__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/orbit__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/orbit__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/orbit__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/takeoff__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/takeoff__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/takeoff__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/detail/takeoff__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/land.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/offboard.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/orbit.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/action/takeoff.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/msg/detail/offboard_flag__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/msg/detail/offboard_flag__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/msg/detail/offboard_flag__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/msg/detail/offboard_flag__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/msg/offboard_flag.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_reposition__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_reposition__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_reposition__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_reposition__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_speed__builder.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_speed__struct.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_speed__traits.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/detail/set_speed__type_support.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/set_reposition.hpp"
+  "rosidl_generator_cpp/autopilot_interface_msgs/srv/set_speed.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/autopilot_interface_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

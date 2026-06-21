@@ -1,0 +1,508 @@
+[0.506s] colcon DEBUG Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'px4_msgs', 'autopilot_interface_msgs', 'autopilot_interface', 'mission', 'pegasus_msgs', 'pegasus_ai']
+[0.559s] colcon DEBUG Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['px4_msgs', 'autopilot_interface_msgs', 'autopilot_interface', 'mission', 'pegasus_msgs', 'pegasus_ai'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71ba6ec0d630>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71ba6ecf2f80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71ba6ecf2f80>>)
+[0.772s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) check parameters
+[0.772s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) check parameters
+[0.772s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) check parameters
+[0.772s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) check parameters
+[0.772s] colcon.colcon_core.package_discovery Level 1 discover_packages(colcon_meta) discover
+[0.773s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) discover
+[0.773s] colcon.colcon_core.package_discovery INFO Crawling recursively for packages in '/workspace/aerial_ws/ros2_ws'
+[0.773s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore'
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ignore_ament_install'
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_pkg']
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_pkg'
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['colcon_meta']
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'colcon_meta'
+[0.774s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['ros']
+[0.775s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'ros'
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['cmake', 'python']
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'cmake'
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python'
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(.) by extensions ['python_setup_py']
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(.) by extension 'python_setup_py'
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(build) by extension 'ignore'
+[0.884s] colcon.colcon_core.package_identification Level 1 _identify(build) ignored
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(install) by extension 'ignore'
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(install) ignored
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(log) by extension 'ignore'
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(log) ignored
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.885s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ignore_ament_install'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_pkg']
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_pkg'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['colcon_meta']
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'colcon_meta'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['ros']
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'ros'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['cmake', 'python']
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'cmake'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python'
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extensions ['python_setup_py']
+[0.886s] colcon.colcon_core.package_identification Level 1 _identify(src) by extension 'python_setup_py'
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extension 'ignore'
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extension 'ignore_ament_install'
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extensions ['colcon_pkg']
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extension 'colcon_pkg'
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extensions ['colcon_meta']
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extension 'colcon_meta'
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extensions ['ros']
+[0.887s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface) by extension 'ros'
+[0.893s] colcon.colcon_core.package_identification DEBUG Package 'src/autopilot_interface' with type 'ros.ament_cmake' and name 'autopilot_interface'
+[0.893s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extension 'ignore'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extension 'ignore_ament_install'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extensions ['colcon_pkg']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extension 'colcon_pkg'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extensions ['colcon_meta']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extension 'colcon_meta'
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extensions ['ros']
+[0.894s] colcon.colcon_core.package_identification Level 1 _identify(src/autopilot_interface_msgs) by extension 'ros'
+[0.896s] colcon.colcon_core.package_identification DEBUG Package 'src/autopilot_interface_msgs' with type 'ros.ament_cmake' and name 'autopilot_interface_msgs'
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extension 'ignore'
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extension 'ignore_ament_install'
+[0.896s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extensions ['colcon_pkg']
+[0.897s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extension 'colcon_pkg'
+[0.897s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extensions ['colcon_meta']
+[0.897s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extension 'colcon_meta'
+[0.897s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extensions ['ros']
+[0.897s] colcon.colcon_core.package_identification Level 1 _identify(src/imu_publisher) by extension 'ros'
+[0.898s] colcon.colcon_core.package_identification DEBUG Package 'src/imu_publisher' with type 'ros.ament_cmake' and name 'imu_publisher'
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extensions ['ignore', 'ignore_ament_install']
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extension 'ignore'
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extension 'ignore_ament_install'
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extensions ['colcon_pkg']
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extension 'colcon_pkg'
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extensions ['colcon_meta']
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extension 'colcon_meta'
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extensions ['ros']
+[0.899s] colcon.colcon_core.package_identification Level 1 _identify(src/mission) by extension 'ros'
+[0.902s] colcon.colcon_core.package_identification DEBUG Package 'src/mission' with type 'ros.ament_python' and name 'mission'
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extension 'ignore'
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extension 'ignore_ament_install'
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extensions ['colcon_pkg']
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extension 'colcon_pkg'
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extensions ['colcon_meta']
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extension 'colcon_meta'
+[0.902s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extensions ['ros']
+[0.903s] colcon.colcon_core.package_identification Level 1 _identify(src/offboard_control) by extension 'ros'
+[0.905s] colcon.colcon_core.package_identification DEBUG Package 'src/offboard_control' with type 'ros.ament_cmake' and name 'offboard_control'
+[0.905s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extensions ['ignore', 'ignore_ament_install']
+[0.905s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extension 'ignore'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extension 'ignore_ament_install'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extensions ['colcon_pkg']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extension 'colcon_pkg'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extensions ['colcon_meta']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extension 'colcon_meta'
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extensions ['ros']
+[0.906s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_ai) by extension 'ros'
+[0.961s] colcon.colcon_core.package_identification DEBUG Package 'src/pegasus_ai' with type 'ros.ament_python' and name 'pegasus_ai'
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extension 'ignore'
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extension 'ignore_ament_install'
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extensions ['colcon_pkg']
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extension 'colcon_pkg'
+[0.961s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extensions ['colcon_meta']
+[0.962s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extension 'colcon_meta'
+[0.962s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extensions ['ros']
+[0.962s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_bringup) by extension 'ros'
+[0.963s] colcon.colcon_core.package_identification DEBUG Package 'src/pegasus_bringup' with type 'ros.ament_cmake' and name 'pegasus_bringup'
+[0.963s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.963s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extension 'ignore'
+[0.963s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extension 'ignore_ament_install'
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extensions ['colcon_pkg']
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extension 'colcon_pkg'
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extensions ['colcon_meta']
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extension 'colcon_meta'
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extensions ['ros']
+[0.964s] colcon.colcon_core.package_identification Level 1 _identify(src/pegasus_msgs) by extension 'ros'
+[0.967s] colcon.colcon_core.package_identification DEBUG Package 'src/pegasus_msgs' with type 'ros.ament_cmake' and name 'pegasus_msgs'
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extension 'ignore'
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extension 'ignore_ament_install'
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extensions ['colcon_pkg']
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extension 'colcon_pkg'
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extensions ['colcon_meta']
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extension 'colcon_meta'
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extensions ['ros']
+[0.967s] colcon.colcon_core.package_identification Level 1 _identify(src/px4_msgs) by extension 'ros'
+[0.969s] colcon.colcon_core.package_identification DEBUG Package 'src/px4_msgs' with type 'ros.ament_cmake' and name 'px4_msgs'
+[0.969s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extensions ['ignore', 'ignore_ament_install']
+[0.969s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extension 'ignore'
+[0.969s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extension 'ignore_ament_install'
+[0.969s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extensions ['colcon_pkg']
+[0.969s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extension 'colcon_pkg'
+[0.970s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extensions ['colcon_meta']
+[0.970s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extension 'colcon_meta'
+[0.970s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extensions ['ros']
+[0.970s] colcon.colcon_core.package_identification Level 1 _identify(src/state_sharing) by extension 'ros'
+[0.971s] colcon.colcon_core.package_identification DEBUG Package 'src/state_sharing' with type 'ros.ament_cmake' and name 'state_sharing'
+[0.971s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extensions ['ignore', 'ignore_ament_install']
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extension 'ignore'
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extension 'ignore_ament_install'
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extensions ['colcon_pkg']
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extension 'colcon_pkg'
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extensions ['colcon_meta']
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extension 'colcon_meta'
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extensions ['ros']
+[0.972s] colcon.colcon_core.package_identification Level 1 _identify(src/yolo_py) by extension 'ros'
+[0.973s] colcon.colcon_core.package_identification DEBUG Package 'src/yolo_py' with type 'ros.ament_python' and name 'yolo_py'
+[0.973s] colcon.colcon_core.package_discovery Level 1 discover_packages(recursive) using defaults
+[0.973s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) discover
+[0.973s] colcon.colcon_core.package_discovery Level 1 discover_packages(ignore) using defaults
+[0.973s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) discover
+[0.973s] colcon.colcon_core.package_discovery Level 1 discover_packages(path) using defaults
+[1.002s] colcon.colcon_core.package_selection INFO Skipping not selected package 'yolo_py' in 'src/yolo_py'
+[1.003s] colcon.colcon_core.package_selection INFO Skipping not selected package 'imu_publisher' in 'src/imu_publisher'
+[1.003s] colcon.colcon_core.package_selection INFO Skipping not selected package 'offboard_control' in 'src/offboard_control'
+[1.003s] colcon.colcon_core.package_selection INFO Skipping not selected package 'state_sharing' in 'src/state_sharing'
+[1.003s] colcon.colcon_core.package_selection INFO Skipping not selected package 'pegasus_bringup' in 'src/pegasus_bringup'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_args' from command line to 'None'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_target' from command line to 'None'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.004s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.004s] colcon.colcon_core.verb DEBUG Building package 'autopilot_interface_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/autopilot_interface_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.005s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_args' from command line to 'None'
+[1.005s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_target' from command line to 'None'
+[1.005s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.005s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.059s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.059s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.060s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.060s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.060s] colcon.colcon_core.verb Level 5 set package 'pegasus_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.060s] colcon.colcon_core.verb DEBUG Building package 'pegasus_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/pegasus_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.060s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_args' from command line to 'None'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_target' from command line to 'None'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.061s] colcon.colcon_core.verb Level 5 set package 'px4_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.061s] colcon.colcon_core.verb DEBUG Building package 'px4_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/px4_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/px4_msgs', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/px4_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_args' from command line to 'None'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_target' from command line to 'None'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_clean_first' from command line to 'False'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'cmake_force_configure' from command line to 'False'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'ament_cmake_args' from command line to 'None'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[1.062s] colcon.colcon_core.verb Level 5 set package 'autopilot_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.063s] colcon.colcon_core.verb DEBUG Building package 'autopilot_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/autopilot_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/autopilot_interface', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/autopilot_interface', 'symlink_install': False, 'test_result_base': None}
+[1.063s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_args' from command line to 'None'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_target' from command line to 'None'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_clean_cache' from command line to 'False'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_clean_first' from command line to 'False'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'cmake_force_configure' from command line to 'False'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'ament_cmake_args' from command line to 'None'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'catkin_cmake_args' from command line to 'None'
+[1.064s] colcon.colcon_core.verb Level 5 set package 'pegasus_ai' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.064s] colcon.colcon_core.verb DEBUG Building package 'pegasus_ai' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/pegasus_ai', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/pegasus_ai', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/pegasus_ai', 'symlink_install': False, 'test_result_base': None}
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_args' from command line to 'None'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_target' from command line to 'None'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_clean_cache' from command line to 'False'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_clean_first' from command line to 'False'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'cmake_force_configure' from command line to 'False'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'ament_cmake_args' from command line to 'None'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'catkin_cmake_args' from command line to 'None'
+[1.065s] colcon.colcon_core.verb Level 5 set package 'mission' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.065s] colcon.colcon_core.verb DEBUG Building package 'mission' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspace/aerial_ws/ros2_ws/build/mission', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspace/aerial_ws/ros2_ws/install/mission', 'merge_install': False, 'path': '/workspace/aerial_ws/ros2_ws/src/mission', 'symlink_install': False, 'test_result_base': None}
+[1.066s] colcon.colcon_core.executor INFO Executing jobs using 'parallel' executor
+[1.068s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete
+[1.068s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/autopilot_interface_msgs' with build type 'ament_cmake'
+[1.069s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/workspace/aerial_ws/ros2_ws/src/autopilot_interface_msgs'
+[1.073s] colcon.colcon_core.plugin_system INFO Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.074s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.074s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.083s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/px4_msgs' with build type 'ament_cmake'
+[1.084s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/workspace/aerial_ws/ros2_ws/src/px4_msgs'
+[1.084s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.085s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.095s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/pegasus_msgs' with build type 'ament_cmake'
+[1.095s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/workspace/aerial_ws/ros2_ws/src/pegasus_msgs'
+[1.096s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.096s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[1.167s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs -- -j16 -l16
+[1.183s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/px4_msgs -- -j16 -l16
+[1.203s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/pegasus_msgs -- -j16 -l16
+[4.693s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs -- -j16 -l16
+[4.784s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs
+[5.390s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(autopilot_interface_msgs)
+[5.396s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs
+[5.405s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs' for CMake module files
+[5.407s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs' for CMake config files
+[5.408s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface_msgs', 'cmake_prefix_path')
+[5.408s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.ps1'
+[5.468s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.dsv'
+[5.472s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.sh'
+[5.482s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib'
+[5.482s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface_msgs', 'ld_library_path_lib')
+[5.482s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.ps1'
+[5.487s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.dsv'
+[5.488s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.sh'
+[5.494s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/bin'
+[5.494s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib/pkgconfig/autopilot_interface_msgs.pc'
+[5.496s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib/python3.10/site-packages'
+[5.496s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/bin'
+[5.505s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.ps1'
+[5.564s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.dsv'
+[5.570s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.sh'
+[5.575s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.bash'
+[5.585s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.zsh'
+[5.590s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/colcon-core/packages/autopilot_interface_msgs)
+[5.599s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(autopilot_interface_msgs)
+[5.600s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs' for CMake module files
+[5.601s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs' for CMake config files
+[5.665s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface_msgs', 'cmake_prefix_path')
+[5.665s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.ps1'
+[5.666s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.dsv'
+[5.670s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/cmake_prefix_path.sh'
+[5.679s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib'
+[5.679s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface_msgs', 'ld_library_path_lib')
+[5.679s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.ps1'
+[5.680s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.dsv'
+[5.684s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/hook/ld_library_path_lib.sh'
+[5.692s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/bin'
+[5.692s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib/pkgconfig/autopilot_interface_msgs.pc'
+[5.693s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib/python3.10/site-packages'
+[5.693s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/bin'
+[5.694s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.ps1'
+[5.698s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.dsv'
+[5.703s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.sh'
+[5.759s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.bash'
+[5.763s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/package.zsh'
+[5.772s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/colcon-core/packages/autopilot_interface_msgs)
+[31.353s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/pegasus_msgs -- -j16 -l16
+[31.355s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/pegasus_msgs
+[31.472s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(pegasus_msgs)
+[31.473s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs' for CMake module files
+[31.474s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/pegasus_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/pegasus_msgs
+[31.475s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs' for CMake config files
+[31.476s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_msgs', 'cmake_prefix_path')
+[31.476s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.ps1'
+[31.477s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.dsv'
+[31.478s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.sh'
+[31.479s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib'
+[31.479s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_msgs', 'ld_library_path_lib')
+[31.480s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.ps1'
+[31.480s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.dsv'
+[31.481s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.sh'
+[31.482s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/bin'
+[31.482s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/pkgconfig/pegasus_msgs.pc'
+[31.482s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/python3.10/site-packages'
+[31.483s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/bin'
+[31.483s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.ps1'
+[31.485s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.dsv'
+[31.486s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.sh'
+[31.486s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.bash'
+[31.487s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.zsh'
+[31.488s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/colcon-core/packages/pegasus_msgs)
+[31.489s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(pegasus_msgs)
+[31.489s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs' for CMake module files
+[31.491s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs' for CMake config files
+[31.492s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_msgs', 'cmake_prefix_path')
+[31.492s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.ps1'
+[31.493s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.dsv'
+[31.494s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/cmake_prefix_path.sh'
+[31.496s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib'
+[31.496s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_msgs', 'ld_library_path_lib')
+[31.496s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.ps1'
+[31.497s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.dsv'
+[31.498s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/hook/ld_library_path_lib.sh'
+[31.499s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/bin'
+[31.500s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/pkgconfig/pegasus_msgs.pc'
+[31.500s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib/python3.10/site-packages'
+[31.501s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/bin'
+[31.501s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.ps1'
+[31.503s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.dsv'
+[31.504s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.sh'
+[31.505s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.bash'
+[31.506s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/pegasus_msgs/package.zsh'
+[31.507s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/share/colcon-core/packages/pegasus_msgs)
+[31.508s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai' with build type 'ament_python'
+[31.508s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_ai', 'ament_prefix_path')
+[31.508s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/ament_prefix_path.ps1'
+[31.509s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/ament_prefix_path.dsv'
+[31.510s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/ament_prefix_path.sh'
+[31.510s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.510s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[31.825s] colcon.colcon_core.task.python.build INFO Building Python package in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai'
+[31.826s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[31.826s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[32.345s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/pegasus_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pegasus_ai build --build-base /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build install --record /workspace/aerial_ws/ros2_ws/build/pegasus_ai/install.log --single-version-externally-managed install_data
+[33.131s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai' for CMake module files
+[33.132s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/src/pegasus_ai' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/pegasus_ai/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/pegasus_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pegasus_ai build --build-base /workspace/aerial_ws/ros2_ws/build/pegasus_ai/build install --record /workspace/aerial_ws/ros2_ws/build/pegasus_ai/install.log --single-version-externally-managed install_data
+[33.133s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai' for CMake config files
+[33.134s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib'
+[33.134s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/bin'
+[33.135s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/pkgconfig/pegasus_ai.pc'
+[33.135s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/lib/python3.10/site-packages'
+[33.135s] colcon.colcon_core.shell Level 1 create_environment_hook('pegasus_ai', 'pythonpath')
+[33.135s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/pythonpath.ps1'
+[33.136s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/pythonpath.dsv'
+[33.137s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/hook/pythonpath.sh'
+[33.138s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/bin'
+[33.138s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(pegasus_ai)
+[33.139s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/package.ps1'
+[33.140s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/package.dsv'
+[33.141s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/package.sh'
+[33.141s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/package.bash'
+[33.142s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/pegasus_ai/package.zsh'
+[33.143s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/pegasus_ai/share/colcon-core/packages/pegasus_ai)
+[115.495s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/px4_msgs -- -j16 -l16
+[115.497s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/px4_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/px4_msgs
+[116.806s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(px4_msgs)
+[116.806s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs' for CMake module files
+[116.807s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/px4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/px4_msgs
+[116.809s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs' for CMake config files
+[116.810s] colcon.colcon_core.shell Level 1 create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[116.810s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[116.811s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[116.811s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[116.812s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib'
+[116.812s] colcon.colcon_core.shell Level 1 create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[116.813s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[116.813s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[116.814s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[116.815s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/bin'
+[116.815s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[116.815s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[116.816s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/bin'
+[116.816s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[116.818s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[116.819s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[116.820s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[116.820s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[116.821s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[116.822s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(px4_msgs)
+[116.823s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs' for CMake module files
+[116.824s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs' for CMake config files
+[116.825s] colcon.colcon_core.shell Level 1 create_environment_hook('px4_msgs', 'cmake_prefix_path')
+[116.826s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.ps1'
+[116.827s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.dsv'
+[116.828s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/cmake_prefix_path.sh'
+[116.829s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib'
+[116.829s] colcon.colcon_core.shell Level 1 create_environment_hook('px4_msgs', 'ld_library_path_lib')
+[116.829s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.ps1'
+[116.830s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.dsv'
+[116.831s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/hook/ld_library_path_lib.sh'
+[116.832s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/bin'
+[116.832s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib/pkgconfig/px4_msgs.pc'
+[116.833s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib/python3.10/site-packages'
+[116.833s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/px4_msgs/bin'
+[116.834s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.ps1'
+[116.835s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.dsv'
+[116.836s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.sh'
+[116.837s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.bash'
+[116.837s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/package.zsh'
+[116.838s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/colcon-core/packages/px4_msgs)
+[116.839s] colcon.colcon_ros.task.ament_cmake.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/autopilot_interface' with build type 'ament_cmake'
+[116.839s] colcon.colcon_cmake.task.cmake.build INFO Building CMake package in '/workspace/aerial_ws/ros2_ws/src/autopilot_interface'
+[116.840s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[116.840s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[116.845s] colcon.colcon_ros.task.ament_python.build INFO Building ROS package in '/workspace/aerial_ws/ros2_ws/src/mission' with build type 'ament_python'
+[116.845s] colcon.colcon_core.shell Level 1 create_environment_hook('mission', 'ament_prefix_path')
+[116.845s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/ament_prefix_path.ps1'
+[116.846s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/ament_prefix_path.dsv'
+[116.847s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/ament_prefix_path.sh'
+[116.847s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[116.848s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[116.860s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/autopilot_interface -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/autopilot_interface
+[117.098s] colcon.colcon_ros.task.ament_python.build WARNING Package 'mission' doesn't explicitly install a marker in the package index (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[117.099s] colcon.colcon_ros.task.ament_python.build WARNING Package 'mission' doesn't explicitly install the 'package.xml' file (colcon-ros currently does it implicitly but that fallback will be removed in the future)
+[117.099s] colcon.colcon_core.task.python.build INFO Building Python package in '/workspace/aerial_ws/ros2_ws/src/mission'
+[117.100s] colcon.colcon_core.shell INFO Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[117.100s] colcon.colcon_core.shell DEBUG Skip shell extension 'dsv' for command environment
+[117.595s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/src/mission': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/mission/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission build --build-base /workspace/aerial_ws/ros2_ws/build/mission/build install --record /workspace/aerial_ws/ros2_ws/build/mission/install.log --single-version-externally-managed
+[118.240s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission' for CMake module files
+[118.241s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/src/mission' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/build/mission/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/aerial_ws/ros2_ws/install/mission/lib/python3.10/site-packages:/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mission build --build-base /workspace/aerial_ws/ros2_ws/build/mission/build install --record /workspace/aerial_ws/ros2_ws/build/mission/install.log --single-version-externally-managed
+[118.242s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission' for CMake config files
+[118.242s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission/lib'
+[118.242s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission/bin'
+[118.242s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission/lib/pkgconfig/mission.pc'
+[118.243s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission/lib/python3.10/site-packages'
+[118.243s] colcon.colcon_core.shell Level 1 create_environment_hook('mission', 'pythonpath')
+[118.243s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/pythonpath.ps1'
+[118.243s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/pythonpath.dsv'
+[118.244s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/hook/pythonpath.sh'
+[118.244s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/mission/bin'
+[118.244s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(mission)
+[118.245s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/package.ps1'
+[118.246s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/package.dsv'
+[118.246s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/package.sh'
+[118.246s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/package.bash'
+[118.247s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/mission/share/mission/package.zsh'
+[118.247s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/mission/share/colcon-core/packages/mission)
+[118.496s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/autopilot_interface -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/autopilot_interface
+[118.499s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/autopilot_interface -- -j16 -l16
+[148.651s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /workspace/aerial_ws/ros2_ws/build/autopilot_interface -- -j16 -l16
+[148.653s] colcon.colcon_core.event_handler.log_command DEBUG Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/autopilot_interface
+[148.691s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(autopilot_interface)
+[148.692s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface' for CMake module files
+[148.693s] colcon.colcon_core.event_handler.log_command DEBUG Invoked command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface' returned '0': AMENT_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs:/opt/ros/humble LD_LIBRARY_PATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/lib:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/workspace/aerial_ws/ros2_ws/install/px4_msgs/local/lib/python3.10/dist-packages:/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /workspace/aerial_ws/ros2_ws/build/autopilot_interface
+[148.693s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface' for CMake config files
+[148.694s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface', 'cmake_prefix_path')
+[148.694s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.ps1'
+[148.695s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.dsv'
+[148.696s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.sh'
+[148.697s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib'
+[148.697s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/bin'
+[148.697s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/pkgconfig/autopilot_interface.pc'
+[148.697s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/python3.10/site-packages'
+[148.698s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/bin'
+[148.698s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.ps1'
+[148.700s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.dsv'
+[148.700s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.sh'
+[148.701s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.bash'
+[148.702s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.zsh'
+[148.702s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/colcon-core/packages/autopilot_interface)
+[148.703s] colcon.colcon_core.environment Level 1 create_environment_scripts_only(autopilot_interface)
+[148.704s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface' for CMake module files
+[148.705s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface' for CMake config files
+[148.705s] colcon.colcon_core.shell Level 1 create_environment_hook('autopilot_interface', 'cmake_prefix_path')
+[148.706s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.ps1'
+[148.707s] colcon.colcon_core.shell INFO Creating environment descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.dsv'
+[148.708s] colcon.colcon_core.shell INFO Creating environment hook '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/hook/cmake_prefix_path.sh'
+[148.709s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib'
+[148.709s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/bin'
+[148.709s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/pkgconfig/autopilot_interface.pc'
+[148.709s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/python3.10/site-packages'
+[148.710s] colcon.colcon_core.environment Level 1 checking '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/bin'
+[148.710s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.ps1'
+[148.712s] colcon.colcon_core.shell INFO Creating package descriptor '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.dsv'
+[148.713s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.sh'
+[148.714s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.bash'
+[148.715s] colcon.colcon_core.shell INFO Creating package script '/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.zsh'
+[148.716s] colcon.colcon_core.environment Level 1 create_file_with_runtime_dependencies(/workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/colcon-core/packages/autopilot_interface)
+[148.716s] colcon.colcon_parallel_executor.executor.parallel DEBUG closing loop
+[148.717s] colcon.colcon_parallel_executor.executor.parallel DEBUG loop closed
+[148.717s] colcon.colcon_parallel_executor.executor.parallel DEBUG run_until_complete finished with '0'
+[148.717s] colcon.colcon_core.event_reactor DEBUG joining thread
+[148.718s] colcon.colcon_core.event_reactor DEBUG joined thread
+[148.718s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/aerial_ws/ros2_ws/install/local_setup.ps1'
+[148.720s] colcon.colcon_core.shell INFO Creating prefix util module '/workspace/aerial_ws/ros2_ws/install/_local_setup_util_ps1.py'
+[148.722s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/aerial_ws/ros2_ws/install/setup.ps1'
+[148.724s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/aerial_ws/ros2_ws/install/local_setup.sh'
+[148.725s] colcon.colcon_core.shell INFO Creating prefix util module '/workspace/aerial_ws/ros2_ws/install/_local_setup_util_sh.py'
+[148.726s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/aerial_ws/ros2_ws/install/setup.sh'
+[148.728s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/aerial_ws/ros2_ws/install/local_setup.bash'
+[148.729s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/aerial_ws/ros2_ws/install/setup.bash'
+[148.730s] colcon.colcon_core.shell INFO Creating prefix script '/workspace/aerial_ws/ros2_ws/install/local_setup.zsh'
+[148.731s] colcon.colcon_core.shell INFO Creating prefix chain script '/workspace/aerial_ws/ros2_ws/install/setup.zsh'

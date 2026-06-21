@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from pegasus_msgs/msg/DefectArray.msg
+// generated code does not contain a copyright notice
+
+#include "pegasus_msgs/msg/DefectDetection.idl"
+#include "std_msgs/msg/Header.idl"
+
+module pegasus_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Array of defect detections for a single frame")
+    struct DefectArray {
+      std_msgs::msg::Header header;
+
+      string drone_id;
+
+      string zone_id;
+
+      @verbatim (language="comment", text=
+        "All detections in this frame")
+      sequence<pegasus_msgs::msg::DefectDetection> detections;
+
+      @verbatim (language="comment", text=
+        "Summary counts")
+      uint32 total_count;
+
+      uint32 crack_count;
+
+      uint32 corrosion_count;
+
+      uint32 paint_damage_count;
+
+      @verbatim (language="comment", text=
+        "Highest risk in this frame")
+      string max_risk_level;
+
+      uint8 max_risk_id;
+
+      @verbatim (language="comment", text=
+        "Processing latency (seconds)")
+      float inference_latency;
+
+      float total_latency;
+    };
+  };
+};

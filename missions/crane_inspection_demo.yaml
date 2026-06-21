@@ -1,0 +1,29 @@
+# Pegasus AI — Sample Crane Inspection Mission
+# =============================================
+# Each waypoint is a position where the drone hovers and runs AI inspection.
+# The drone flies at cruise altitude (z) between waypoints.
+# At each waypoint, it dwells for N seconds while the inference_node
+# detects defects (cracks, corrosion, paint damage) on the crane surface.
+
+name: "crane_inspection_demo"
+takeoff_height: 8.0       # Cruise altitude (meters)
+cruise_speed: 2.0         # Transit speed (m/s)
+waypoint_tolerance: 0.5   # Arrival radius (meters)
+
+# Waypoints define the inspection path.
+# Typical pattern: fly along the crane boom/bridge, stopping to inspect.
+waypoints:
+  # ---- Quay Crane (Ship-to-Shore) ----
+  - {x: 5.0,  y: -2.0, z: 12.0, label: "QC boom root",   dwell_time: 3.0}
+  - {x: 5.0,  y: -2.0, z: 25.0, label: "QC boom mid",    dwell_time: 3.0}
+  - {x: 5.0,  y: -2.0, z: 40.0, label: "QC boom tip",    dwell_time: 3.0}
+  - {x: 8.0,  y: -2.0, z: 40.0, label: "QC trolley",     dwell_time: 2.0}
+  - {x: 5.0,  y: -2.0, z: 25.0, label: "QC spreader",    dwell_time: 2.0}
+
+  # ---- Transfer Crane (RTG) ----
+  - {x: 20.0, y: 5.0,  z: 12.0, label: "RTG bridge L",   dwell_time: 2.0}
+  - {x: 20.0, y: 5.0,  z: 22.0, label: "RTG bridge R",   dwell_time: 2.0}
+  - {x: 20.0, y: 8.0,  z: 17.0, label: "RTG trolley",    dwell_time: 2.0}
+
+  # ---- Return to origin ----
+  - {x: 0.0,  y: 0.0,  z: 8.0,  label: "home",           dwell_time: 0.0}

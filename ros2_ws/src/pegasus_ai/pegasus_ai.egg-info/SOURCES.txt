@@ -1,0 +1,17 @@
+package.xml
+pyproject.toml
+setup.py
+config/inference.yaml
+launch/inference.launch.py
+pegasus_ai/__init__.py
+pegasus_ai/inference_node.py
+pegasus_ai/mock_camera_node.py
+pegasus_ai/test_publisher.py
+pegasus_ai.egg-info/PKG-INFO
+pegasus_ai.egg-info/SOURCES.txt
+pegasus_ai.egg-info/dependency_links.txt
+pegasus_ai.egg-info/entry_points.txt
+pegasus_ai.egg-info/requires.txt
+pegasus_ai.egg-info/top_level.txt
+pegasus_ai.egg-info/zip-safe
+resource/pegasus_ai

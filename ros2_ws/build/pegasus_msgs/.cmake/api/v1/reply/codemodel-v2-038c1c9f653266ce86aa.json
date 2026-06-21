@@ -1,0 +1,258 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-4b6d141f2312d4160d4c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "pegasus_msgs__py",
+					"jsonFile" : "directory-pegasus_msgs__py-af7715d8f70f0780511c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/pegasus_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "pegasus_msgs__rs",
+					"jsonFile" : "directory-pegasus_msgs__rs-4b44cd3e3c3d3423d660.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/pegasus_msgs__rs",
+					"targetIndexes" : 
+					[
+						16
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "pegasus_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_pegasus_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_pegasus_msgs_egg-05a0563de67b5d994f15.json",
+					"name" : "ament_cmake_python_build_pegasus_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_pegasus_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_pegasus_msgs-b7407c4828d649bd41f9.json",
+					"name" : "ament_cmake_python_copy_pegasus_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs-9a8a73cb604e422b7a6e.json",
+					"name" : "pegasus_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__cpp-39574ac478591ca2a91e.json",
+					"name" : "pegasus_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "pegasus_msgs__py::@70f611d224b50e3bb896",
+					"jsonFile" : "target-pegasus_msgs__py-6bab0ff8eddd3ead522e.json",
+					"name" : "pegasus_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_generator_c-b01f1188a1f775d572b3.json",
+					"name" : "pegasus_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_generator_py-c0a898ea4fcff51d30a6.json",
+					"name" : "pegasus_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_c-bf31273ec9b86c12db33.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_c__pyext-f63685c6514a09c15253.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_cpp-0bc986ff5901bf73dc55.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_fastrtps_c-d54c810caf9d914ba3e5.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_fastrtps_c__pyext-878aab575ce18f8b214f.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_fastrtps_cpp-8f8dc8944097669a1dc3.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_introspection_c-cc8647806ec6fab5438e.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_introspection_c__pyext-f6954b4874ec945b4082.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs__rosidl_typesupport_introspection_cpp-3f5fa570f79a174e7d1d.json",
+					"name" : "pegasus_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "pegasus_msgs__rs::@516a92bf838dfd95953b",
+					"jsonFile" : "target-pegasus_msgs__rs-947ac7917e88e9f405e2.json",
+					"name" : "pegasus_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pegasus_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pegasus_msgs_uninstall-3bebe03138731cba6d1f.json",
+					"name" : "pegasus_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-bbbbad86153b4ddf4e1f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspace/aerial_ws/ros2_ws/build/pegasus_msgs",
+		"source" : "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

@@ -1,0 +1,10 @@
+{
+  "package_name": "pegasus_msgs",
+  "non_idl_tuples": [
+    "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs:msg/DefectDetection.msg",
+    "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs:msg/DefectArray.msg",
+    "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs:msg/InspectionResult.msg",
+    "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs:msg/ZoneInfo.msg",
+    "/workspace/aerial_ws/ros2_ws/src/pegasus_msgs:msg/NodeHealth.msg"
+  ]
+}

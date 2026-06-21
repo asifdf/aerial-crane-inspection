@@ -1,0 +1,5 @@
+[console_scripts]
+inference_node = pegasus_ai.inference_node:main
+mock_camera_node = pegasus_ai.mock_camera_node:main
+test_publisher = pegasus_ai.test_publisher:main
+

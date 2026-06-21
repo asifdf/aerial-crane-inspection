@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)
+-- Found px4_msgs: 2.0.1 (/workspace/aerial_ws/ros2_ws/install/px4_msgs/share/px4_msgs/cmake)
+-- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found autopilot_interface_msgs: 0.1.0 (/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs/share/autopilot_interface_msgs/cmake)
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /workspace/aerial_ws/ros2_ws/build/autopilot_interface
+[ 25%] Building CXX object CMakeFiles/ardupilot_interface.dir/src/ardupilot_interface.cpp.o
+[ 50%] Building CXX object CMakeFiles/px4_interface.dir/src/px4_interface.cpp.o
+[ 75%] Linking CXX executable px4_interface
+[ 75%] Built target px4_interface
+[100%] Linking CXX executable ardupilot_interface
+[100%] Built target ardupilot_interface
+-- Install configuration: ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/autopilot_interface/px4_interface
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/autopilot_interface/px4_interface" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/autopilot_interface/ardupilot_interface
+-- Set runtime path of "/workspace/aerial_ws/ros2_ws/install/autopilot_interface/lib/autopilot_interface/ardupilot_interface" to ""
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/ament_index/resource_index/package_run_dependencies/autopilot_interface
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/ament_index/resource_index/parent_prefix_path/autopilot_interface
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/environment/ament_prefix_path.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/environment/ament_prefix_path.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/environment/path.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/environment/path.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/local_setup.bash
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/local_setup.sh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/local_setup.zsh
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/local_setup.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.dsv
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/ament_index/resource_index/packages/autopilot_interface
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/cmake/autopilot_interfaceConfig.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/cmake/autopilot_interfaceConfig-version.cmake
+-- Installing: /workspace/aerial_ws/ros2_ws/install/autopilot_interface/share/autopilot_interface/package.xml

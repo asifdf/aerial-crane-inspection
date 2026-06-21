@@ -1,0 +1,82 @@
+# Crane Inspection Mission — Aerial Autonomy Stack
+# =================================================
+# Uses ROS2 actions: takeoff → reposition (waypoints) → wait (inspect) → land
+#
+# Each "reposition" action moves the drone to a crane inspection point.
+# The drone dwells at each point (wait action) while AI detects defects.
+#
+# Supported actions: takeoff, land, reposition, orbit, wait, offboard, speed
+
+steps:
+  # ── Takeoff ──────────────────────────────────────────────────────
+  - action: takeoff
+    params:
+      takeoff_altitude: 12.0
+      vtol_transition_heading: 0.0
+
+  - action: wait
+    params:
+      duration: 3.0
+
+  # ── Quay Crane (Ship-to-Shore) inspection ─────────────────────────
+  - action: reposition
+    params:
+      east: 5.0
+      north: -2.0
+      altitude: 12.0
+  - action: wait
+    params:
+      duration: 3.0
+
+  - action: reposition
+    params:
+      east: 5.0
+      north: -2.0
+      altitude: 25.0
+  - action: wait
+    params:
+      duration: 3.0
+
+  - action: reposition
+    params:
+      east: 5.0
+      north: -2.0
+      altitude: 40.0
+  - action: wait
+    params:
+      duration: 3.0
+
+  # ── Transfer Crane (RTG) inspection ───────────────────────────────
+  - action: reposition
+    params:
+      east: 20.0
+      north: 5.0
+      altitude: 12.0
+  - action: wait
+    params:
+      duration: 2.0
+
+  - action: reposition
+    params:
+      east: 20.0
+      north: 5.0
+      altitude: 22.0
+  - action: wait
+    params:
+      duration: 2.0
+
+  # ── Return home ───────────────────────────────────────────────────
+  - action: reposition
+    params:
+      east: 0.0
+      north: 0.0
+      altitude: 12.0
+  - action: wait
+    params:
+      duration: 2.0
+
+  # ── Land ─────────────────────────────────────────────────────────
+  - action: land
+    params:
+      landing_altitude: 12.0
+      vtol_transition_heading: 0.0
