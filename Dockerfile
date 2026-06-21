@@ -10,12 +10,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-rosdep \
     ros-humble-geographic-msgs \
     ros-humble-mavros-msgs \
+    ros-humble-vision-msgs \
     libgeographic-dev \
     && rm -rf /var/lib/apt/lists/*
  
 WORKDIR /workspace/aerial_ws
 
 COPY ros2_ws ./ros2_ws
+COPY external/aerial-autonomy-stack/ground/ground_ws/src/ground_system_msgs ./ros2_ws/src/ground_system_msgs
 
 RUN source /opt/ros/humble/setup.bash && \
     cd /workspace/aerial_ws/ros2_ws && \
