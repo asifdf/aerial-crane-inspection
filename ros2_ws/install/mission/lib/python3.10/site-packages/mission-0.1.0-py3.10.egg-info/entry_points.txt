@@ -1,2 +1,0 @@
-[console_scripts]
-mission = mission.mission_node:main

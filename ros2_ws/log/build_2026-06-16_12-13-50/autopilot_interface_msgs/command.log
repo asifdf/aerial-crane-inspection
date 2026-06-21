@@ -1,1 +1,0 @@
-Invoking command in '/workspace/aerial_ws/ros2_ws/build/autopilot_interface_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/autopilot_interface_msgs -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/autopilot_interface_msgs

@@ -1,2 +1,0 @@
-Invoking command in '/workspace/aerial_ws/ros2_ws/build/state_sharing': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/state_sharing -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/state_sharing
-Invoked command in '/workspace/aerial_ws/ros2_ws/build/state_sharing' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/aerial_ws/ros2_ws/src/state_sharing -DCMAKE_INSTALL_PREFIX=/workspace/aerial_ws/ros2_ws/install/state_sharing

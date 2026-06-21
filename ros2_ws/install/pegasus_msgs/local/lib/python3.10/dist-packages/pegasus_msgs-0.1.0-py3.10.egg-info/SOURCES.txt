@@ -1,6 +1,0 @@
-setup.py
-pegasus_msgs/__init__.py
-pegasus_msgs.egg-info/PKG-INFO
-pegasus_msgs.egg-info/SOURCES.txt
-pegasus_msgs.egg-info/dependency_links.txt
-pegasus_msgs.egg-info/top_level.txt

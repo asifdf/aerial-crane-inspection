@@ -1,5 +1,0 @@
-rosidl_generator_py/px4_msgs/libpx4_msgs__rosidl_generator_py.so: file not recognized: file format not recognized
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/px4_msgs__rosidl_typesupport_c__pyext.dir/build.make:120: rosidl_generator_py/px4_msgs/px4_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:583: CMakeFiles/px4_msgs__rosidl_typesupport_c__pyext.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

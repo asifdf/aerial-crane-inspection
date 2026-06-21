@@ -1,2 +1,0 @@
-[console_scripts]
-yolo_py = yolo_py.yolo_node:main

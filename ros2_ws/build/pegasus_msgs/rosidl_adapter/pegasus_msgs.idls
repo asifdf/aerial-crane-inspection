@@ -1,5 +1,0 @@
-/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/rosidl_adapter/pegasus_msgs:msg/DefectDetection.idl
-/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/rosidl_adapter/pegasus_msgs:msg/DefectArray.idl
-/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/rosidl_adapter/pegasus_msgs:msg/InspectionResult.idl
-/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/rosidl_adapter/pegasus_msgs:msg/ZoneInfo.idl
-/workspace/aerial_ws/ros2_ws/build/pegasus_msgs/rosidl_adapter/pegasus_msgs:msg/NodeHealth.idl
