@@ -13,7 +13,7 @@ Changes from upstream aerial-autonomy-stack:
   2. Camera input from ROS2 topic (upstream uses GStreamer UDP)
   3. LiDAR (kiss_icp) disabled — not needed for crane inspection
   4. Single-drone, no SwarmObs tracking (upstream supports multi-drone)
-  5. Mission: crane_inspection.yaml (upstream uses yalla.yaml swarm demo)
+  5. Mission: crane_inspection_demo.yaml (upstream uses yalla.yaml swarm demo)
 
 Usage:
   # Terminal 1: Start Isaac Sim with Pegasus drone
@@ -26,15 +26,21 @@ Usage:
   source /opt/ros/humble/setup.bash
   source /workspace/aerial_ws/ros2_ws/install/setup.bash
   ros2 launch pegasus_bringup drone_stack.launch.py
+
+  # Override mission:
+  ros2 launch pegasus_bringup drone_stack.launch.py \\
+    mission_file:=/workspace/aerial_ws/missions/crane_inspection_demo.yaml
 """
 
 import os
 
-from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
+
+# Default paths
+_WORKSPACE = os.path.expanduser("/workspace/aerial_ws")
 
 
 def generate_launch_description():
@@ -55,10 +61,7 @@ def generate_launch_description():
     model_type = LaunchConfiguration("model_type", default="mock")
     mission_file = LaunchConfiguration(
         "mission_file",
-        default=os.path.join(
-            get_package_share_directory("pegasus_bringup"),
-            "../../../missions/crane_inspection_demo.yaml",
-        ),
+        default=os.path.join(_WORKSPACE, "missions", "crane_inspection_demo.yaml"),
     )
 
     # ── MAVROS node ────────────────────────────────────────────────────
@@ -92,7 +95,7 @@ def generate_launch_description():
         package="autopilot_interface",
         executable="px4_interface",
         name="px4_interface",
-        namespace=f"Drone{drone_id}",
+        namespace=["Drone", drone_id],
         parameters=[{"use_sim_time": True}],
         output="screen",
         emulate_tty=True,
@@ -104,11 +107,8 @@ def generate_launch_description():
         package="offboard_control",
         executable="px4_offboard",
         name="offboard_control",
-        namespace=f"Drone{drone_id}",
+        namespace=["Drone", drone_id],
         parameters=[{"use_sim_time": True}],
-        remappings=[
-            ("/detections", "/detections"),
-        ],
         output="screen",
         emulate_tty=True,
     )
@@ -118,7 +118,7 @@ def generate_launch_description():
         package="mission",
         executable="mission",
         name="mission",
-        namespace=f"Drone{drone_id}",
+        namespace=["Drone", drone_id],
         parameters=[{
             "use_sim_time": True,
         }],
@@ -149,13 +149,18 @@ def generate_launch_description():
     # CHANGE #4: state_sharing (swarm) — NOT launched
 
     return LaunchDescription([
+        # Declare args so they can be overridden from CLI
         DeclareLaunchArgument("fcu_url", default_value="udp://:4560@localhost:14550"),
         DeclareLaunchArgument("gcs_url", default_value="udp://:@localhost:14550"),
         DeclareLaunchArgument("tgt_system", default_value="1"),
         DeclareLaunchArgument("drone_id", default_value="1"),
         DeclareLaunchArgument("camera_topic", default_value="/drone/inspection_camera/color/image_raw"),
         DeclareLaunchArgument("model_type", default_value="mock"),
-        DeclareLaunchArgument("mission_file", default_value=""),
+        DeclareLaunchArgument(
+            "mission_file",
+            default_value=os.path.join(_WORKSPACE, "missions", "crane_inspection_demo.yaml"),
+        ),
+        # Nodes
         mavros_node,
         autopilot_interface_node,
         offboard_control_node,
