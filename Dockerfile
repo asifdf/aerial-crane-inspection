@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-colcon-common-extensions \
     python3-rosdep \
     ros-humble-geographic-msgs \
+    ros-humble-mavros-msgs \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /workspace/aerial_ws
@@ -16,11 +17,8 @@ WORKDIR /workspace/aerial_ws
 COPY ros2_ws ./ros2_ws
 
 RUN source /opt/ros/humble/setup.bash && \
-    if [ -d /workspace/aerial_ws/ros2_ws/src ]; then \
-      cd /workspace/aerial_ws/ros2_ws && \
-      colcon build --symlink-install; \
-    fi
-
-COPY . .
+    cd /workspace/aerial_ws/ros2_ws && \
+    rm -rf build install log && \
+    colcon build --symlink-install --parallel-workers 2
 
 CMD ["/bin/bash"]
